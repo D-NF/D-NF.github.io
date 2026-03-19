@@ -20657,6 +20657,19 @@ html.hide-aside .layout > div:first-child {
   filter: none;
 }
 
+[data-theme="dark"] #aside-content .card-recent-post .item-headline,
+[data-theme="dark"] #aside-content .card-recent-post .item-headline span,
+[data-theme="dark"] #aside-content .card-recent-post .item-headline i,
+[data-theme="dark"] #aside-content .card-recent-post .aside-list > .aside-list-item .content > .title {
+  color: #eef3ff !important;
+  opacity: 1;
+}
+
+[data-theme="dark"] #aside-content .card-recent-post .aside-list > .aside-list-item .content > time {
+  color: var(--anzhiyu-secondtext) !important;
+  opacity: 0.9;
+}
+
 #aside-content .card-widget#card-wechat {
   background: #57bd6a;
   display: flex;
