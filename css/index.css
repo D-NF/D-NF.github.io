@@ -20555,6 +20555,108 @@ html.hide-aside .layout > div:first-child {
   border-color: rgba(255, 255, 255, 0.08);
 }
 
+[data-theme="dark"] #post #article-container,
+[data-theme="dark"] #post #article-container p,
+[data-theme="dark"] #post #article-container li,
+[data-theme="dark"] #post #article-container table,
+[data-theme="dark"] #post #article-container details,
+[data-theme="dark"] #post #article-container .note,
+[data-theme="dark"] #post #article-container blockquote {
+  color: var(--anzhiyu-fontcolor);
+}
+
+[data-theme="dark"] #post #article-container h1,
+[data-theme="dark"] #post #article-container h2,
+[data-theme="dark"] #post #article-container h3,
+[data-theme="dark"] #post #article-container h4,
+[data-theme="dark"] #post #article-container h5,
+[data-theme="dark"] #post #article-container h6,
+[data-theme="dark"] #post #article-container strong,
+[data-theme="dark"] #post #article-container b {
+  color: rgba(255, 255, 255, 0.96);
+}
+
+[data-theme="dark"] #post #article-container blockquote,
+[data-theme="dark"] #post-comment blockquote {
+  background: rgba(40, 44, 54, 0.92);
+  color: #d7deec;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] #post #article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not(.no-text-decoration) {
+  color: #eef3ff;
+  border-bottom-color: rgba(255, 211, 108, 0.65);
+}
+
+[data-theme="dark"] #post #article-container code {
+  color: #ffe08c;
+}
+
+[data-theme="dark"] body[data-type="about"] #about-page > p.p.center.logo.large {
+  color: rgba(245, 247, 255, 0.3);
+}
+
+[data-theme="dark"] body[data-type="about"] #about-page > p.p.center.small,
+[data-theme="dark"] body[data-type="about"] #about-page .author-content-item-tips,
+[data-theme="dark"] body[data-type="about"] #about-page .author-tag,
+[data-theme="dark"] body[data-type="about"] #about-page .selfInfo-title,
+[data-theme="dark"] body[data-type="about"] #about-page .career-item .name,
+[data-theme="dark"] body[data-type="about"] #about-page .careers-item .name,
+[data-theme="dark"] body[data-type="about"] #about-page .skill-name,
+[data-theme="dark"] body[data-type="about"] #about-page .post-tips,
+[data-theme="dark"] body[data-type="about"] #about-page .post-tips a {
+  color: var(--anzhiyu-secondtext) !important;
+}
+
+[data-theme="dark"] body[data-type="about"] #about-page .author-tag,
+[data-theme="dark"] body[data-type="about"] #about-page .author-content-item:not(.myInfoAndSayHello):not(.buff):not(.game-yuanshen):not(.comic-content):not(.like-technology):not(.like-music),
+[data-theme="dark"] body[data-type="about"] .hello-about {
+  background: rgba(28, 31, 38, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] body[data-type="about"] #about-page .aboutsiteTips h2,
+[data-theme="dark"] body[data-type="about"] #about-page .author-content-item-title,
+[data-theme="dark"] body[data-type="about"] #about-page .selfInfo-content,
+[data-theme="dark"] body[data-type="about"] #about-page .map-title,
+[data-theme="dark"] body[data-type="about"] #about-page .map-title b {
+  color: var(--anzhiyu-fontcolor) !important;
+}
+
+[data-theme="dark"] #catalog-bar,
+[data-theme="dark"] #category #catalog-bar {
+  background: rgba(28, 31, 38, 0.92) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px;
+}
+
+[data-theme="dark"] #catalog-bar i,
+[data-theme="dark"] #catalog-list .catalog-list-item a,
+[data-theme="dark"] #catalog-bar .category-bar-next,
+[data-theme="dark"] #catalog-bar .category-bar-next i,
+[data-theme="dark"] #catalog-bar a.catalog-more {
+  color: #d7deec !important;
+  opacity: 1;
+}
+
+[data-theme="dark"] #catalog-list .catalog-list-item a:hover,
+[data-theme="dark"] #catalog-bar .category-bar-next:hover,
+[data-theme="dark"] #catalog-bar a.catalog-more:hover {
+  color: var(--anzhiyu-white) !important;
+}
+
+[data-theme="dark"] #aside-content .aside-list > .aside-list-item .content > .title,
+[data-theme="dark"] #aside-content .aside-list > .aside-list-item .content > .name,
+[data-theme="dark"] #aside-content #card-toc .item-headline,
+[data-theme="dark"] #aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  color: var(--anzhiyu-fontcolor) !important;
+}
+
+[data-theme="dark"] #aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  opacity: 0.88;
+  filter: none;
+}
+
 #aside-content .card-widget#card-wechat {
   background: #57bd6a;
   display: flex;
